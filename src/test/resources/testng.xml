@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="test-suite" parallel="tests">
+<!--    <test name="google">-->
+<!--        <classes>-->
+<!--            <class name="tests.TestGoogle"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="news">-->
+<!--        <classes>-->
+<!--            <class name="tests.TestGoogle"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="data prov test1">
+        <classes>
+            <class name="tests.DataProviderTest"/>
+        </classes>
+    </test>
+
+    <test name="data prov test2">
+        <classes>
+            <class name="tests.DataProviderTest2"/>
+        </classes>
+    </test>
+
+    <test name="data prov test3">
+        <classes>
+            <class name="tests.DataProviderTest2"/>
+        </classes>
+    </test>
+
+
+</suite>
